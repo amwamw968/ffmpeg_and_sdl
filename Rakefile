@@ -38,7 +38,7 @@ FFMPEG_BUILD_ARGS_ARMV7 = [
 "--extra-cflags='-mfpu=neon -mfloat-abi=softfp -mvectorize-with-neon-quad'",
 '--enable-neon',
 '--enable-optimizations',
-'--disable-debug',
+#'--disable-debug',
 '--disable-armv5te',
 '--disable-armv6',
 '--disable-armv6t2',
@@ -54,7 +54,7 @@ FFMPEG_BUILD_ARGS_ARMV7S = [
 "--extra-cflags='-mfpu=neon -mfloat-abi=softfp -mvectorize-with-neon-quad'",
 '--enable-neon',
 '--enable-optimizations',
-'--disable-debug',
+#'--disable-debug',
 '--disable-armv5te',
 '--disable-armv6',
 '--disable-armv6t2',
@@ -62,11 +62,11 @@ FFMPEG_BUILD_ARGS_ARMV7S = [
 ]
 
 FFMPEG_BUILD_ARGS = [
-'--disable-ffmpeg',
-'--disable-ffplay',
-'--disable-ffserver',
-'--disable-ffprobe',
-'--disable-doc',
+#'--disable-ffmpeg',
+#'--disable-ffplay',
+#'--disable-ffserver',
+#'--disable-ffprobe',
+#'--disable-doc',
 '--disable-bzlib',
 '--target-os=darwin',
 '--enable-cross-compile',
@@ -132,7 +132,7 @@ def buildArch(arch)
 	
 	dest = ensureDir('ffmpeg/' + arch)
 	
-	system_or_exit "cd ffmpeg; ./configure #{args}"
+	system_or_exit "cd ffmpeg;./configure #{args}"
 	system_or_exit "cd ffmpeg; make"	
 	moveLibs(dest)	
 	system_or_exit "cd ffmpeg; make clean"
@@ -263,5 +263,5 @@ end
 task :build_ffmpeg => [:check_gas_preprocessor, :build_ffmpeg_i386]
 #task :build_movie => [:build_movie_debug, :copy_movie] 
 #task :build_movie => [:build_movie_release, :copy_movie] 
-#task :build_all => [:build_ffmpeg, :build_movie] 
-#task :default => [:build_all]
+task :build_all => [:build_ffmpeg] 
+task :default => [:build_all]

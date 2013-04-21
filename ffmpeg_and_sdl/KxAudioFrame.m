@@ -8,6 +8,12 @@
 
 #import "KxAudioFrame.h"
 
-@implementation KxAudioFrame
+
+@interface KxAudioFrame()
 
 @end
+
+@implementation KxAudioFrame
+- (KxMovieFrameType) type { return KxMovieFrameTypeAudio; }
+@end
+

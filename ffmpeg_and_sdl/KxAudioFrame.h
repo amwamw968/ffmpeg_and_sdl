@@ -8,6 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KxAudioFrame : NSObject
 
+typedef enum {
+    
+    KxMovieFrameTypeAudio,
+    KxMovieFrameTypeVideo,
+    KxMovieFrameTypeArtwork,
+    KxMovieFrameTypeSubtitle,
+    
+} KxMovieFrameType;
+
+@interface KxAudioFrame : NSObject
+@property (readwrite, nonatomic) KxMovieFrameType type;
+@property (readwrite, nonatomic) CGFloat position;
+@property (readwrite, nonatomic) CGFloat duration;
+@property (readwrite, nonatomic, strong) NSData *samples;
 @end

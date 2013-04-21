@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9080E261720A99D00E423A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9080E241720A99D00E423A6 /* ViewController.m */; };
+		D90827D31720ADD800E423A6 /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D90827D01720ADD800E423A6 /* 123.mp3 */; };
+		D90827D41720ADD800E423A6 /* BigBuckBunny_175k.mov in Resources */ = {isa = PBXBuildFile; fileRef = D90827D11720ADD800E423A6 /* BigBuckBunny_175k.mov */; };
+		D90827D51720ADD800E423A6 /* test_format_1.3gp in Resources */ = {isa = PBXBuildFile; fileRef = D90827D21720ADD800E423A6 /* test_format_1.3gp */; };
+		D90827E21720B0D000E423A6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D90827E11720B0D000E423A6 /* libz.dylib */; };
+		D90827E41720B0FE00E423A6 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D90827E31720B0FE00E423A6 /* libiconv.dylib */; };
+		D92A49691722064300D0F985 /* 01.avi in Resources */ = {isa = PBXBuildFile; fileRef = D92A49681722064300D0F985 /* 01.avi */; };
 		D9F103F31720784000D929D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F103F21720784000D929D0 /* UIKit.framework */; };
 		D9F103F51720784000D929D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F103F41720784000D929D0 /* Foundation.framework */; };
 		D9F103F71720784000D929D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F103F61720784000D929D0 /* CoreGraphics.framework */; };
@@ -16,9 +23,29 @@
 		D9F104051720784000D929D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F104041720784000D929D0 /* Default.png */; };
 		D9F104071720784000D929D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F104061720784000D929D0 /* Default@2x.png */; };
 		D9F104091720784000D929D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F104081720784000D929D0 /* Default-568h@2x.png */; };
+		D9F3F8531723F0BB009532FD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F8521723F0BB009532FD /* OpenGLES.framework */; };
+		D9F3F8551723F0D9009532FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F8541723F0D9009532FD /* QuartzCore.framework */; };
+		D9F3F8571723F0E1009532FD /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F8561723F0E1009532FD /* CoreAudio.framework */; };
+		D9F3F8591723F0E9009532FD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F8581723F0E9009532FD /* AudioToolbox.framework */; };
+		D9F3F85B17240963009532FD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F85A17240963009532FD /* Accelerate.framework */; };
+		D9F3F85E17240F40009532FD /* KxAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F3F85D17240F40009532FD /* KxAudioFrame.m */; };
+		D9F3F86F17241841009532FD /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F86A17241841009532FD /* libavcodec.a */; };
+		D9F3F87017241841009532FD /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F86B17241841009532FD /* libavformat.a */; };
+		D9F3F87117241841009532FD /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F86C17241841009532FD /* libavutil.a */; };
+		D9F3F87217241841009532FD /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F86D17241841009532FD /* libswresample.a */; };
+		D9F3F87317241841009532FD /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F3F86E17241841009532FD /* libswscale.a */; };
+		D9FB88231724859300824E52 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FB88221724859300824E52 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9080E231720A99D00E423A6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9080E241720A99D00E423A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D90827D01720ADD800E423A6 /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 123.mp3; sourceTree = "<group>"; };
+		D90827D11720ADD800E423A6 /* BigBuckBunny_175k.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = BigBuckBunny_175k.mov; sourceTree = "<group>"; };
+		D90827D21720ADD800E423A6 /* test_format_1.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_format_1.3gp; sourceTree = "<group>"; };
+		D90827E11720B0D000E423A6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D90827E31720B0FE00E423A6 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		D92A49681722064300D0F985 /* 01.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = 01.avi; sourceTree = "<group>"; };
 		D9F103EF1720784000D929D0 /* ffmpeg_and_sdl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ffmpeg_and_sdl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F103F21720784000D929D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9F103F41720784000D929D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +59,19 @@
 		D9F104041720784000D929D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D9F104061720784000D929D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D9F104081720784000D929D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9F3F8521723F0BB009532FD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D9F3F8541723F0D9009532FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9F3F8561723F0E1009532FD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D9F3F8581723F0E9009532FD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D9F3F85A17240963009532FD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D9F3F85C17240F40009532FD /* KxAudioFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioFrame.h; sourceTree = "<group>"; };
+		D9F3F85D17240F40009532FD /* KxAudioFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxAudioFrame.m; sourceTree = "<group>"; };
+		D9F3F86A17241841009532FD /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		D9F3F86B17241841009532FD /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		D9F3F86C17241841009532FD /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		D9F3F86D17241841009532FD /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		D9F3F86E17241841009532FD /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		D9FB88221724859300824E52 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,18 +79,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F3F85B17240963009532FD /* Accelerate.framework in Frameworks */,
+				D9F3F8591723F0E9009532FD /* AudioToolbox.framework in Frameworks */,
+				D9F3F8571723F0E1009532FD /* CoreAudio.framework in Frameworks */,
+				D9F3F8551723F0D9009532FD /* QuartzCore.framework in Frameworks */,
+				D9F3F8531723F0BB009532FD /* OpenGLES.framework in Frameworks */,
+				D90827E41720B0FE00E423A6 /* libiconv.dylib in Frameworks */,
+				D90827E21720B0D000E423A6 /* libz.dylib in Frameworks */,
 				D9F103F31720784000D929D0 /* UIKit.framework in Frameworks */,
 				D9F103F51720784000D929D0 /* Foundation.framework in Frameworks */,
 				D9F103F71720784000D929D0 /* CoreGraphics.framework in Frameworks */,
+				D9F3F86F17241841009532FD /* libavcodec.a in Frameworks */,
+				D9F3F87017241841009532FD /* libavformat.a in Frameworks */,
+				D9F3F87117241841009532FD /* libavutil.a in Frameworks */,
+				D9F3F87217241841009532FD /* libswresample.a in Frameworks */,
+				D9F3F87317241841009532FD /* libswscale.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90827CF1720ADD800E423A6 /* movie */ = {
+			isa = PBXGroup;
+			children = (
+				D92A49681722064300D0F985 /* 01.avi */,
+				D90827D01720ADD800E423A6 /* 123.mp3 */,
+				D90827D11720ADD800E423A6 /* BigBuckBunny_175k.mov */,
+				D90827D21720ADD800E423A6 /* test_format_1.3gp */,
+			);
+			path = movie;
+			sourceTree = "<group>";
+		};
 		D9F103E61720784000D929D0 = {
 			isa = PBXGroup;
 			children = (
+				D9F3F86917241841009532FD /* output */,
 				D9F103F81720784000D929D0 /* ffmpeg_and_sdl */,
 				D9F103F11720784000D929D0 /* Frameworks */,
 				D9F103F01720784000D929D0 /* Products */,
@@ -68,6 +132,13 @@
 		D9F103F11720784000D929D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D90827E31720B0FE00E423A6 /* libiconv.dylib */,
+				D9F3F85A17240963009532FD /* Accelerate.framework */,
+				D9F3F8581723F0E9009532FD /* AudioToolbox.framework */,
+				D9F3F8561723F0E1009532FD /* CoreAudio.framework */,
+				D9F3F8541723F0D9009532FD /* QuartzCore.framework */,
+				D9F3F8521723F0BB009532FD /* OpenGLES.framework */,
+				D90827E11720B0D000E423A6 /* libz.dylib */,
 				D9F103F21720784000D929D0 /* UIKit.framework */,
 				D9F103F41720784000D929D0 /* Foundation.framework */,
 				D9F103F61720784000D929D0 /* CoreGraphics.framework */,
@@ -78,9 +149,15 @@
 		D9F103F81720784000D929D0 /* ffmpeg_and_sdl */ = {
 			isa = PBXGroup;
 			children = (
+				D90827CF1720ADD800E423A6 /* movie */,
 				D9F104011720784000D929D0 /* AppDelegate.h */,
 				D9F104021720784000D929D0 /* AppDelegate.m */,
 				D9F103F91720784000D929D0 /* Supporting Files */,
+				D9080E231720A99D00E423A6 /* ViewController.h */,
+				D9FB88221724859300824E52 /* ViewController.xib */,
+				D9080E241720A99D00E423A6 /* ViewController.m */,
+				D9F3F85C17240F40009532FD /* KxAudioFrame.h */,
+				D9F3F85D17240F40009532FD /* KxAudioFrame.m */,
 			);
 			path = ffmpeg_and_sdl;
 			sourceTree = "<group>";
@@ -97,6 +174,19 @@
 				D9F104081720784000D929D0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9F3F86917241841009532FD /* output */ = {
+			isa = PBXGroup;
+			children = (
+				D9F3F86A17241841009532FD /* libavcodec.a */,
+				D9F3F86B17241841009532FD /* libavformat.a */,
+				D9F3F86C17241841009532FD /* libavutil.a */,
+				D9F3F86D17241841009532FD /* libswresample.a */,
+				D9F3F86E17241841009532FD /* libswscale.a */,
+			);
+			name = output;
+			path = ffmpeg_and_sdl/output;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +245,11 @@
 				D9F104051720784000D929D0 /* Default.png in Resources */,
 				D9F104071720784000D929D0 /* Default@2x.png in Resources */,
 				D9F104091720784000D929D0 /* Default-568h@2x.png in Resources */,
+				D90827D31720ADD800E423A6 /* 123.mp3 in Resources */,
+				D90827D41720ADD800E423A6 /* BigBuckBunny_175k.mov in Resources */,
+				D90827D51720ADD800E423A6 /* test_format_1.3gp in Resources */,
+				D92A49691722064300D0F985 /* 01.avi in Resources */,
+				D9FB88231724859300824E52 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +278,8 @@
 			files = (
 				D9F103FF1720784000D929D0 /* main.m in Sources */,
 				D9F104031720784000D929D0 /* AppDelegate.m in Sources */,
+				D9080E261720A99D00E423A6 /* ViewController.m in Sources */,
+				D9F3F85E17240F40009532FD /* KxAudioFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +358,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ffmpeg_and_sdl/ffmpeg_and_sdl-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/amw/Documents/sdl/ffmpeg_and_sdl/FFmpeg;
 				INFOPLIST_FILE = "ffmpeg_and_sdl/ffmpeg_and_sdl-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ffmpeg_and_sdl/output\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,8 +377,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ffmpeg_and_sdl/ffmpeg_and_sdl-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/amw/Documents/sdl/ffmpeg_and_sdl/FFmpeg;
 				INFOPLIST_FILE = "ffmpeg_and_sdl/ffmpeg_and_sdl-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ffmpeg_and_sdl/output\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -301,6 +408,7 @@
 				D9F1040E1720784000D929D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

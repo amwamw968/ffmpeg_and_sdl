@@ -7,20 +7,51 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
+@synthesize window, imageView, label, playButton, video;
+
 - (void)dealloc
 {
-    [_window release];
+    [video release];
+	[imageView release];
+	[label release];
+	[playButton release];
+    [window release];
     [super dealloc];
 }
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"test_format_1.3gp"]
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+
+   // self.video = [[ViewController alloc] init];
+    //[video release];
+    
+	//video.outputWidth = 426;
+	//video.outputHeight = 320;
+    
+    UIViewController *vc = [[ViewController alloc] init];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[
+                                         [[UINavigationController alloc] initWithRootViewController:vc],
+                                         ];
+    
+    
+   // [imageView setTransform:CGAffineTransformMakeRotation(M_PI/2)];
+    
+    self.window.rootViewController = tabBarController;
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    //self.window.backgroundColor = [UIColor greenColor];
+    
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
